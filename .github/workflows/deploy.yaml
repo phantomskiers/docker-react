@@ -26,4 +26,5 @@
               existing_bucket_name: elasticbeanstalk-us-east-1-868900174760
               region: us-east-1
               version_label: ${{ github.sha }}
+              wait_for_environment_recovery: 120
               deployment_package: deploy.zip
